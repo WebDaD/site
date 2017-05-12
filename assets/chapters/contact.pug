@@ -1,0 +1,14 @@
+.form-group
+  label(for='contact-name') Name
+  input#contact-name.form-control(type='text', placeholder="Name")
+.form-group
+  label(for='contact-mail') E-Mail
+  input#contact-mail.form-control(type='text', placeholder="E-Mail")
+.form-group
+  label(for='contact-message') Nachricht
+  textarea#contact-message.form-control(placeholder="Nachricht")
+.form-group
+  .g-recaptcha(data-sitekey=gcaptchasitekey)
+.form-group
+  button#contact-send.btn.btn-primary.btn-lg.btn-block Abschicken
+#contact-result.form-group

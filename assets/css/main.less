@@ -1,0 +1,109 @@
+@import "palette.less";
+@import "navbar.less";
+@import "cards.less";
+@import "ghost-button.less";
+
+/* better typhography */
+p, figcaption, .click-to-tweet-text, td {
+  font-family: 'Helvetica Neue';
+  font-size: 20px;
+	font-size: 1.8rem;
+	letter-spacing: -.01em;
+  font-style: normal;
+	font-weight: 400;
+  line-height: 1.4;
+  word-wrap: normal;
+}
+
+/* navbar brand */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-brand>img {
+  padding: 7px 14px;
+}
+/* row grid error */
+.row.row-grid [class*="col-"] {
+    margin-top: 15px;
+}
+/* Buttons */
+.btn-primary {
+  background-color: @primary;
+  border-color: @primary;
+}
+/* color to inlines */
+em {
+  color: @secondary;
+}
+strong {
+  color: @primary;
+}
+/* Jumbo bg */
+#top {
+  margin-left: -15px;
+  margin-right: -15px;
+  width: inherit;
+  background-image: url('../images/bg.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin-bottom: 20px;
+}
+#top-box {
+  background:rgba(255,255,255,0.8);
+  margin-top:20px;
+  margin-bottom:20px;
+}
+@media (max-width: 767px) {
+  #top-box {
+    margin-left:10px;
+    margin-right:10px;
+  }
+}
+/* Footer */
+footer {
+  background-color: #212121;
+  color: #f0f0f0 !important;
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+/* Contact */
+#kontakt {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+/* Share Buttons */
+.share-buttons {
+  position: fixed;
+  width: 5%;
+  right: 0px;
+  top: 40%;
+}
+.share-buttons a {
+  width: 100%;
+  float: right;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+.share-buttons .facebook {
+  background-color: #3b5998;
+}
+.share-buttons .twitter {
+  background-color: #1da1f2;
+}
+.share-buttons .google-plus {
+  background-color: #dd4b39;
+}
+.share-buttons .whatsapp {
+  background-color: #43d854;
+}
+.share-buttons a i {
+  color:white;
+  padding:2px;
+  font-size: 14px;
+  font-size: 4rem;
+}

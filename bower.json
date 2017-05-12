@@ -1,0 +1,25 @@
+{
+  "name": "Site-WebDaD",
+  "description": "A simple one-pager",
+  "main": "index.pug",
+  "keywords": [
+    "webdad",
+    "one-page",
+    "bootstrap",
+    "info",
+    "form",
+    "contact"
+  ],
+  "authors": [
+    "Dominik Sigmund"
+  ],
+  "license": "The Unlicense",
+  "homepage": "http://www.webdad.eu",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery.lazyload":"*",
+    "jquery":"*",
+    "font-awesome":"*"
+  }
+}

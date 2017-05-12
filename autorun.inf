@@ -1,0 +1,4 @@
+[autorun]
+UseAutoPlay=1
+ShellExecute=index.html
+ACTION=View the website
