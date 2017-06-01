@@ -1,5 +1,22 @@
 AddType text/cache-manifest .appcache
 
+# Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^webdad.eu[nc]
+RewriteRule ^(.*)$ http://www.webdad.eu/$1 [r=301,nc]
+
+# 301 Redirect Files
+Redirect 301 haveandshowemotions.html /index.html#haveandshowemotions
+Redirect 301 genderrepresentation.html /index.html#genderrepresentation
+Redirect 301 about_this.html /index.html#about_this
+
+# Custom 404 errors
+ErrorDocument 404 /404.html
+
+# Custom 500 errors
+ErrorDocument 500 /500.html
+
 <ifModule mod_gzip.c>
   mod_gzip_on Yes
   mod_gzip_dechunk Yes

@@ -1,0 +1,3 @@
+Sitemap: http://webdad.eu/sitemap.xml
+User-agent: *
+Disallow:

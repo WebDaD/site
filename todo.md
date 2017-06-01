@@ -3,8 +3,10 @@
   * redirect /something -> index.html#something
 *   php config
 * contact -> add dropdown
-*   key.json google, bing, yandex keys analytics(!)
+* google captcha codes
 *   agbs einbauen (footer link)
+* 404
+* 500
 *   chapters
   * about us
   * apps
@@ -21,9 +23,15 @@
 *   check favicon
 *   404 page
 *   check keyword etc
-*   add sitemap.xml
-* add robots.txt
+*   edit sitemap.xml
 *   http://wave.webaim.org/report#/webdad.eu
 *    https://validator.w3.org/nu/?doc=http%3A%2F%2Fwebdad.eu
 *    http://www.evaluera.co.uk/atester
 *   https://search.google.com/structured-data/testing-tool#url=webdad.eu
+* https://www.leapfroggr.com/seo-checklist/
+
+* images have class lazy
+
+* webmaster tools google
+* yandex
+* bing
