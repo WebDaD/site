@@ -1,0 +1,69 @@
+/* Share Buttons */
+
+/* mobile, fixed to bottom */
+body {
+  padding-bottom:50px;
+}
+.share-buttons {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index:9999;
+}
+.share-buttons a {
+  width:25%;
+  height:50px;
+  float: right;
+  text-align: center;
+}
+.share-buttons a i {
+  font-size: 20px;
+  font-size: 4vw;
+  vertical-align: middle;
+  line-height: 50px;
+}
+/* Desktop, float right */
+@media (min-width: 768px) {
+  body {
+    padding-bottom:0;
+  }
+  .share-buttons {
+    position: fixed;
+    width: 5%;
+    right: 0px;
+    top: 40%;
+    z-index:9999;
+  }
+  .share-buttons a {
+    width: 100%;
+    float: right;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+  }
+  .share-buttons a i {
+    font-size: 14px;
+    font-size: 2vw;
+  }
+}
+
+/* general Settings */
+.share-buttons .facebook {
+  background-color: #3b5998;
+}
+.share-buttons .twitter {
+  background-color: #1da1f2;
+}
+.share-buttons .google-plus {
+  background-color: #dd4b39;
+}
+.share-buttons .whatsapp {
+  background-color: #43d854;
+}
+.share-buttons .mail {
+  background-color: #696969;
+}
+.share-buttons a i {
+  color:white;
+  padding:2px;
+}
