@@ -1,6 +1,6 @@
 @import "palette.less";
 @import "navbar.less";
-
+@import "share-buttons.less";
 
 /* fitting bg-colos btns */
 .btn-primary {
@@ -14,9 +14,14 @@
 /* up button */
 #up {
   position: fixed;
-  bottom:10px;
+  bottom:60px;
   right:10px;
   z-index:99;
+}
+@media (min-width: 768px) {
+  #up {
+    bottom:10px;
+  }
 }
 
 /* navbar mobile extensions */
@@ -77,39 +82,4 @@ footer {
   width: 100%;
   padding-top: 10px;
   margin-top: 20px;
-}
-
-
-/* Share Buttons */
-.share-buttons {
-  position: fixed;
-  width: 5%;
-  right: 0px;
-  top: 40%;
-  z-index:9999;
-}
-.share-buttons a {
-  width: 100%;
-  float: right;
-  margin: 0 auto;
-  text-align: center;
-  padding: 10px;
-}
-.share-buttons .facebook {
-  background-color: #3b5998;
-}
-.share-buttons .twitter {
-  background-color: #1da1f2;
-}
-.share-buttons .google-plus {
-  background-color: #dd4b39;
-}
-.share-buttons .whatsapp {
-  background-color: #43d854;
-}
-.share-buttons a i {
-  color:white;
-  padding:2px;
-  font-size: 14px;
-  font-size: 3vw;
 }
