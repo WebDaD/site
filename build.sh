@@ -16,7 +16,7 @@ echo "Refresh Gutenberg-CSS Package"
 npm install gutenberg-css
 
 echo "Creating Index.html"
-pug index.pug -O keys.json -o public/
+pug index.pug -O keys.json -O assets/data/referenzen.json -o public/
 
 echo "Combine, Minify and Copy CSS"
 touch tmp/main.css
@@ -35,7 +35,7 @@ echo "Combine, Minify and Copy JS"
 uglifyjs bower_components/jquery/dist/jquery.min.js bower_components/bootstrap/dist/js/bootstrap.min.js bower_components/jquery.lazyload/jquery.lazyload.js assets/js/analytics.js bower_components/offline/offline.min.js assets/js/main.js --mangle --compress --output=public/js/main.js
 
 echo "Copy Images"
-cp -a images/. public/images/
+cp -a assets/images/. public/images/
 
 echo "Copy Impressum and Datenschutz and AGBS"
 pug impressum.pug -o public/

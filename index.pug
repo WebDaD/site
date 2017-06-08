@@ -2,39 +2,40 @@ doctype html
 html(lang='de')
   head
     include header.pug
-  body
+  body(itemscope itemtype="http://schema.org/Organization")
     include up.pug
     include share-buttons.pug
     include navbar.pug
-      #top
-        .container
-          .row
-            .col-sm-4
-              img.img-responsive.lazy(src='/images/apple-touch-icon.png' alt="WebDaD - Web Development and Design Logo")
-            .col-sm-8
-              h1
-                span WebDaD
-                small Web Development and Design
-              p Wir kümmern uns um Ihren Web-Auftritt.
-              a.btn.btn-primary.btn-lg.no-print(href="#kontakt" role="button") Jetzt ein kostenloses Angebot einholen!
+    #top
       .container
-        h1#ueber_uns Über uns
-        include assets/chapters/about_us.pug
-        hr.no-print.page-break-after
-        h1#kontakt Kontakt
-        include assets/chapters/contact.pug
-        hr.no-print.page-break-after
-        h1#referenzen Referenzen
-        include assets/chapters/referenzen.pug
-        hr.no-print.page-break-after
-        h1#service Service
-        include assets/chapters/service.pug
-        hr.no-print.page-break-after
-        h1#apps Apps
-        include assets/chapters/apps.pug
-        hr.no-print.page-break-after
-        h1#games Games
-        include assets/chapters/games.pug
-        include footer.pug
+        .row
+          .col-sm-4
+            img.img-responsive.lazy(data-original='/images/android-chrome-512x512.png' alt="WebDaD - Web Development and Design Logo" itemprop="logo")
+          .col-sm-8.text-right
+            h1
+              span WebDaD
+              small  Web Development and Design
+            p Ob Webseiten, Anwendungen oder Service:
+            p Wir kümmern uns um Ihren Web-Auftritt.
+            a.btn.btn-primary.btn-lg.btn-block.ghost-button.no-print(href="#kontakt" role="button") Jetzt kostenloses Angebot anfordern!
+    .container
+      h1#ueber_uns Über uns
+      include assets/chapters/about_us.pug
+      hr.no-print.page-break-after
+      h1#kontakt Kontakt
+      include assets/chapters/contact.pug
+      hr.no-print.page-break-after
+      h1#referenzen Referenzen
+      include assets/chapters/referenzen.pug
+      hr.no-print.page-break-after
+      h1#service Service
+      include assets/chapters/service.pug
+      hr.no-print.page-break-after
+      h1#apps Apps
+      include assets/chapters/apps.pug
+      hr.no-print.page-break-after
+      h1#games Games
+      include assets/chapters/games.pug
+      include footer.pug
     script(src="js/main.js")
     script(src='https://www.google.com/recaptcha/api.js')

@@ -1,13 +1,13 @@
-.row#form-selector-buttons
+.row.row-grid#form-selector-buttons.no-print
   .col-md-3.col-sm-6.col-xs-12
-    button.btn.btn-primary.form-selector(data-type="website") Webseite
+    button.btn.btn-lg.btn-primary.btn-block.form-selector(data-type="website") Webseite
   .col-md-3.col-sm-6.col-xs-12
-    button.btn.btn-primary.form-selector(data-type="rebuild") Umbau
+    button.btn.btn-lg.btn-primary.btn-block.form-selector(data-type="rebuild") Umbau
   .col-md-3.col-sm-6.col-xs-12
-    button.btn.btn-primary.form-selector(data-type="support") Unterstützung
+    button.btn.btn-lg.btn-primary.btn-block.form-selector(data-type="support") Unterstützung
   .col-md-3.col-sm-6.col-xs-12
-    button.btn.btn-primary.form-selector(data-type="other") Sonstiges
-form#form-selector-form
+    button.btn.btn-lg.btn-primary.btn-block.form-selector(data-type="other") Sonstiges
+form#form-selector-form.no-print
   .form-group#form-selector-type
     label(for='contact-type') Typ
     p#contact-type.form-control-static
@@ -28,3 +28,7 @@ form#form-selector-form
   .form-group
     button#contact-send.btn.btn-primary.btn-lg.btn-block Abschicken
   #contact-result.form-group
+hr.no-print
+p
+  a(href="mailto:info@webdad.eu" itemprop="email") Oder per E-Mail
+p Oder Telefon: <span itemprop="telephone">0179 / 830 2800</span>

@@ -1,7 +1,7 @@
 @bgDefault      : @primaryColor;
-@bgHighlight    : @darkPrimaryColor;
+@bgHighlight    : @accentColor;
 @colDefault     : @textPrimaryColor;
-@colHighlight   :  @textPrimaryColor;
+@colHighlight   : @secondaryTextColor;
 @dropDown       : false;
 .ddm() when (@dropDown) {
   > li > .dropdown-menu {
@@ -24,7 +24,8 @@
   .navbar-brand {
     color: @colDefault;
     &:hover, &:focus {
-      color: @colHighlight; }}
+      color: @colHighlight;
+      background-color: @bgHighlight; }}
   .navbar-text {
     color: @colDefault; }
   .navbar-nav {
@@ -32,7 +33,8 @@
       > a {
         color: @colDefault;
         &:hover,  &:focus {
-          color: @colHighlight; }}}
+          color: @colHighlight;
+          background-color: @bgHighlight; }}}
     .ddm;
     > .active {
       > a, > a:hover, > a:focus {
@@ -60,7 +62,8 @@
     > li > a {
       color: @colDefault;
       &:hover, &:focus {
-        color: @colHighlight; }}
+        color: @colHighlight;
+        background-color: @bgHighlight; }}
     > .active {
       > a, > a:hover, > a:focus {
         color: @colHighlight;

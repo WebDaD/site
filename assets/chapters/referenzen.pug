@@ -1,3 +1,7 @@
-//-
-  Gridlike table with logos, links
-  images have class lazy
+.row.row-grid
+  each ref in referenzen
+    .col-md-6
+      .rcard
+        a(target="_blank" href=ref.link)
+          img.lazy(data-original="/images/refs/"+ref.image alt="Logo "+ref.text)
+          span=ref.text

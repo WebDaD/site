@@ -4,21 +4,101 @@
 
 /* Header */
 #top {
-  background-color: @darkPrimaryColor;
-  color: @secondaryTextColor;
+  background-color: @primaryColor;
+  color: @accentColor;
+  padding-bottom: 15px;
+}
+#top > div > div > div.col-sm-4 > img {
+  margin: 0 auto;
+}
+#top > div > div > div.col-sm-8 > h1 {
+  font-size:4.5vw;
+}
+#top > div > div > div.col-sm-8 > p {
+  font-size:3.5vw;
+}
+#top > div > div > div.col-sm-8 > a {
+  font-size:3.5vw;
+}
+#top > div > div > div.col-sm-8 > h1 span {
+  color: @accentColor !important;
+}
+#top > div > div > div.col-sm-8 > h1 small {
+  color: @accentColor !important;
 }
 @media (max-width: 767px) {
-  h1 {  text-align: center;}
-  small {white-space:pre-line;}
-  small:before { content: '\A'; }
+  #top > div > div > div.col-sm-8.text-right > h1 {  text-align: center;}
+  #top > div > div > div.col-sm-8.text-right > p {  text-align: center;}
+  #top > div > div > div.col-sm-8.text-right > h1 small {white-space:pre-line; }
+  #top > div > div > div.col-sm-8.text-right > h1 small:before { content: '\A'; }
+}
+body {
+  padding-top: 50px;
+}
+@media (min-width: 768px) {
+  #top {
+    height:360px;
+  }
+  #top .container {
+    height:100%;
+    .row {
+      height:100%;
+      .col-sm-4 {
+        height:100%;
+      }
+      .col-sm-8 {
+        height:100%;
+        display: table;
+        font-size:2vw;
+        h1 {
+          font-size:3.5vw;
+        }
+        p {
+          font-size:2vw;
+        }
+        a {
+          font-size:2vw;
+        }
+      }
+    }
+  }
 }
 /* fitting bg-colos btns */
 .btn-primary {
-  background-color: @darkPrimaryColor;
+  background-color: @primaryColor;
+  color: @textPrimaryColor;
 }
 .btn-primary:hover {
   background-color: @accentColor;
   color: @secondaryTextColor;
+}
+.ghost-button {
+  background-color: @accentColor;
+}
+.ghost-button:hover {
+  background-color: @primaryColor;
+  color: @accentColor;
+}
+/* Icon Cards */
+.icard {
+  text-align: center;
+}
+.icard i {
+  color: @accentColor;
+  font-size: 20vw;
+}
+@media (min-width: 768px) {
+  .icard i {
+    font-size: 5vw;
+  }
+}
+/* Reference Cards */
+.rcard {
+  padding: 10px;
+}
+.rcard img {
+  height:100px;
+  width:auto;
 }
 
 /* up button */
@@ -26,7 +106,7 @@
   position: fixed;
   bottom:60px;
   right:10px;
-  z-index:99;
+  z-index:999;
 }
 @media (min-width: 768px) {
   #up {
@@ -43,29 +123,31 @@
     font-size: 26px;
   }
 }
-/* Header */
-@media (min-width: 992px) {
-  body {
-    padding-top: 50px;
-  }
+/* color to inlines */
+em {
+  color: @accentColor;
 }
-@media (max-width: 991px) {
-  body {
-    padding-top: 100px;
-  }
+strong {
+  color: @primaryColor;
 }
-@media (max-width: 767px) {
-  body {
-    padding-top: 50px;
-  }
+hr {
+  border-color: @primaryColor;
+}
+h1 {
+  color: @primaryColor;
 }
 
+
+
+
 /* better typhography */
-p, figcaption, .click-to-tweet-text, td {
+body {
   font-family: 'Helvetica Neue';
+  letter-spacing: -.01em;
+}
+p, figcaption, td, li, a, label {
   font-size: 20px;
 	font-size: 1.8rem;
-	letter-spacing: -.01em;
   font-style: normal;
 	font-weight: 400;
   line-height: 1.4;
@@ -76,15 +158,6 @@ p, figcaption, .click-to-tweet-text, td {
 .row.row-grid [class*="col-"] {
     margin-top: 15px;
 }
-
-/* color to inlines */
-em {
-  color: @secondary;
-}
-strong {
-  color: @primary;
-}
-
 /* Footer */
 footer {
   background-color: #212121;
