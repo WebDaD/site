@@ -1,9 +1,11 @@
 ## DEV
 *   chapters
-  * about us
+  * referenzen (cards with links)
   * apps (cards with github links)
   * games (cards with github links)
-  * referenzen (cards with links)
+  * service links
+  * about_us linking
+* css icard
 
   *   http://schema.org/docs/gs.html
 
@@ -28,3 +30,5 @@
 * validate with metatag webmaster tools google + add sitemap.xml
 * validate with metatag yandex + add sitemap.xml
 * validate with metatag bing + add sitemap.xml
+
+* rechtsschreibung
