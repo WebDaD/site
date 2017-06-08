@@ -3,7 +3,7 @@
   * apps internal links -> liste als json https://github.com/WebDaD/
   * games -> liste als json https://github.com/WebDaD/
 * css pcard (apps / games)
-* navbar: mark active on scroll
+* scroll: change hash
 
 ## TESTS
 *   https://developers.google.com/speed/pagespeed/insights/?hl=de&url=http%3A%2F%2Fnew.webdad.eu%2F

@@ -27,8 +27,23 @@ $(document).ready(function () {
       window.location.hash = haash
     })
   })
-  $('.nav a').on('click', function () {
-    $('.navbar-toggle').click() // bootstrap 3.x by Richard
+  $('.nav li a').on('click', function () {
+    if ($('#bs-example-navbar-collapse-1').hasClass('in')) {
+      $('.navbar-toggle').click()
+    }
+    $(this).parent().find('a').removeClass('active')
+    $(this).addClass('active')
+  })
+  $(window).on('scroll', function () {
+    var paddingTop = parseInt($('body').css('padding-top').replace('px', '')) + 70
+    $('.target').each(function () {
+      if ($(window).scrollTop() >= $(this).offset().top - paddingTop) {
+        var id = $(this).attr('id')
+        $('.nav li').removeClass('active')
+        $('.nav li a[href="#' + id + '"]').parent().addClass('active')
+        // window.location.hash = '#' + id
+      }
+    })
   })
   $('#form-selector-back').on('click', function () {
     $('#form-selector-buttons').show()
