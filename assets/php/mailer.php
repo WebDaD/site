@@ -16,11 +16,13 @@ if ($response . success == false) {
   <?php
 } else {
   $name = $_POST['name'];
+  $url = $_POST['url'];
+  $type = $_POST['type'];
   $message = $_POST['message'];
   $email = $POST['mail'];
   $empfaenger = 'info@webdad.eu';
-  $betreff = 'Message from Website';
-  $nachricht = 'From: ' . $name . '<' . $email . '>' . "\r\nMessage:\r\n" . $message ;
+  $betreff = 'WebDaD.eu - Contact - '.$type;
+  $nachricht = 'From: ' . $name . '<' . $email . '>' . "\r\nTyp: ".$type."\r\nURL: ".$url."\r\nMessage:\r\n" . $message ;
   $header = 'From: ' . $email . "\r\n" .
       'Reply-To: ' . $email . "\r\n" .
       'X-Mailer: PHP/' . phpversion();

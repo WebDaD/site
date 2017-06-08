@@ -1,115 +1,37 @@
 doctype html
 html(lang='de')
   head
-    meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    meta(name='viewport', content='width=device-width, initial-scale=1')
-    meta(charset='UTF-8')
-    meta(name='author', content='Dominik Sigmund')
-    meta(name='publisher', content='Dominik Sigmund')
-    meta(name='copyright', content='Dominik Sigmund')
-    meta(name='description', content='WebDaD - Wir kümmern uns um Ihren Web-Auftritt.')
-    meta(name='keywords', content='webdad, website, homepage, webapp, design, coding, help')
-    meta(name='page-topic', content='Dienstleistung')
-    meta(name='audience', content='All')
-    meta(http-equiv='content-language', content='de')
-    meta(name='robots', content='index, follow')
-    meta(name='DC.Creator', content='Dominik Sigmund')
-    meta(name='DC.Publisher', content='Dominik Sigmund')
-    meta(name='DC.Rights', content='Dominik Sigmund')
-    meta(name='DC.Description', content='WebDaD - Wir kümmern uns um Ihren Web-Auftritt.')
-    meta(name='DC.Language', content='de')
-    meta(property='og:type', content='website')
-    meta(property='og:title', content='WebDaD')
-    meta(property='og:description', content='WebDaD - Wir kümmern uns um Ihren Web-Auftritt.')
-    meta(property='og:url', content='http://webdad.eu')
-    meta(property='og:image', content='http://webdad.eu/images/apple-touch-icon.png')
-    meta(name='twitter:card', content='summary_large_image')
-    meta(name='twitter:site', content='http://webdad.eu')
-    meta(name='twitter:title', content='Children\'s TV Worldwide')
-    meta(name='twitter:description', content='WebDaD - Wir kümmern uns um Ihren Web-Auftritt.')
-    meta(name='twitter:image', content='http://webdad.eu/images/apple-touch-icon.png')
-    link(rel="apple-touch-icon", sizes="180x180", href="/images/apple-touch-icon.png")
-    link(rel="icon", type="image/png", sizes="32x32", href="/images/favicon-32x32.png")
-    link(rel="icon", type="image/png", sizes="16x16", href="/images/favicon-16x16.png")
-    link(rel="manifest", href="/images/manifest.json")
-    link(rel="mask-icon", href="/images/safari-pinned-tab.svg", color="#303f9f")
-    link(rel="shortcut icon", href="/images/favicon.ico")
-    meta(name="msapplication-config", content="/images/browserconfig.xml")
-    meta(name="theme-color", content="#303f9f")
-    link(rel='stylesheet', href='css/main.css')
-    title WebDaD
+    include header.pug
   body
-    a#up.btn.btn-default.btn-lg(href="#top" title="Back to Top")
-      i.fa.fa-arrow-up(aria-hidden="true")
-      span.sr-only Back to the Top
-    .share-buttons
-      a.facebook(href="https://www.facebook.com/sharer/sharer.php?u=http%3A//webdad.eu" target="_blank"  title="Share on Facebook")
-        i.fa.fa-facebook(aria-hidden="true")
-        span.sr-only Share on Facebook
-      a.mail(href="mailto:?subject=http%3A//webdad.eu" title="Share by Mail")
-        i.fa.fa-envelope(aria-hidden="true")
-        span.sr-only Share by Mail
-      a.twitter(href="https://twitter.com/home?status=http%3A//webdad.eu" target="_blank" title="Share on Twitter")
-        i.fa.fa-twitter(aria-hidden="true")
-        span.sr-only Share on Twitter
-      a.google-plus(href="https://plus.google.com/share?url=http%3A//webdad.eu" target="_blank" title="Share on Google+")
-        i.fa.fa-google-plus(aria-hidden="true")
-        span.sr-only Share on Google+
-      a.whatsapp.visible-xs-block(href="whatsapp://send?text=http%3A//webdad.eu" data-action="share/whatsapp/share")
-        i.fa.fa-whatsapp(aria-hidden="true")
-        span.sr-only Share with WhatsApp
-    nav.navbar.navbar-default.navbar-fixed-top
-      .container
-        .navbar-header
-          button.navbar-toggle.collapsed(type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false")
-            span.sr-only Toggle navigation
-            span.icon-bar
-            span.icon-bar
-            span.icon-bar
-          a.navbar-brand(href='#top') WebDaD
-        .collapse.navbar-collapse#bs-example-navbar-collapse-1
-          ul.nav.navbar-nav
-            li
-              a(href="#ueber_uns") Über Uns
-            li
-              a(href="#kontakt") Kontakt
-            li
-              a(href="#referenzen") Referenzen
-            li
-              a(href="#apps") Apps  
-            li
-              a(href="#games") Games  
+    include up.pug
+    include share-buttons.pug
+    include navbar.pug
       #top
         .container
           .row
             .col-sm-4
-              img.img-responsive(src='/images/apple-touch-icon.png' alt="WebDaD Logo")
+              img.img-responsive.lazy(src='/images/apple-touch-icon.png' alt="WebDaD - Web Development and Design Logo")
             .col-sm-8
+              h1
+                span WebDaD
+                small Web Development and Design
               p Wir kümmern uns um Ihren Web-Auftritt.
-              a.btn.btn-primary.btn-lg(href="#kontakt" role="button") Jetzt ein kostenloses Angebot einholen!
+              a.btn.btn-primary.btn-lg.no-print(href="#kontakt" role="button") Jetzt ein kostenloses Angebot einholen!
       .container
-      h1#ueber_uns Über uns
-      include assets/chapters/about_us.jade
-      hr
-      h1#kontakt Kontakt
-      include assets/chapters/contact.pug
-      hr
-      h1#referenzen Referenzen
-      include assets/chapters/referenzen.pug
-      hr
-      h1#apps Apps
-      include assets/chapters/apps.pug
-      hr
-      h1#games Games
-      include assets/chapters/games.pug
-      footer.footer
-        .container
-          .pull-left
-            a.btn.btn-link(style='color:white;' href="http://webdad.eu" target="_blank") Powered by WebDaD.eu
-          .pull-right
-            a.btn.btn-link(style='color:white;' href="./impressum.html" target="_blank") Impressum
-            a.btn.btn-link(style='color:white;' href="./agb.html" target="_blank") AGBs
-            a.btn.btn-link(style='color:white;' href="./datenschutz.html" target="_blank") Datenschutzerklärung
-              
+        h1#ueber_uns Über uns
+        include assets/chapters/about_us.pug
+        hr.no-print.page-break-after
+        h1#kontakt Kontakt
+        include assets/chapters/contact.pug
+        hr.no-print.page-break-after
+        h1#referenzen Referenzen
+        include assets/chapters/referenzen.pug
+        hr.no-print.page-break-after
+        h1#apps Apps
+        include assets/chapters/apps.pug
+        hr.no-print.page-break-after
+        h1#games Games
+        include assets/chapters/games.pug
+        include footer.pug
     script(src="js/main.js")
     script(src='https://www.google.com/recaptcha/api.js')

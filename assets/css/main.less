@@ -2,6 +2,16 @@
 @import "navbar.less";
 @import "share-buttons.less";
 
+/* Header */
+#top {
+  background-color: @darkPrimaryColor;
+  color: @secondaryTextColor;
+}
+@media (max-width: 767px) {
+  h1 {  text-align: center;}
+  small {white-space:pre-line;}
+  small:before { content: '\A'; }
+}
 /* fitting bg-colos btns */
 .btn-primary {
   background-color: @darkPrimaryColor;
@@ -82,4 +92,9 @@ footer {
   width: 100%;
   padding-top: 10px;
   margin-top: 20px;
+}
+
+/* contact */
+#form-selector-form {
+  display:none;
 }

@@ -1,42 +1,7 @@
 doctype html
 html(lang='de')
   head
-    meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    meta(name='viewport', content='width=device-width, initial-scale=1')
-    meta(charset='UTF-8')
-    meta(name='author', content='Dominik Sigmund')
-    meta(name='publisher', content='Dominik Sigmund')
-    meta(name='copyright', content='Dominik Sigmund')
-    meta(name='description', content='WebDaD - Wir kümmern uns um Ihren Web-Auftritt.')
-    meta(name='keywords', content='webdad, website, homepage, webapp, design, coding, help')
-    meta(name='page-topic', content='Dienstleistung')
-    meta(name='audience', content='All')
-    meta(http-equiv='content-language', content='de')
-    meta(name='robots', content='index, follow')
-    meta(name='DC.Creator', content='Dominik Sigmund')
-    meta(name='DC.Publisher', content='Dominik Sigmund')
-    meta(name='DC.Rights', content='Dominik Sigmund')
-    meta(name='DC.Description', content='WebDaD - Wir kümmern uns um Ihren Web-Auftritt.')
-    meta(name='DC.Language', content='de')
-    meta(property='og:type', content='website')
-    meta(property='og:title', content='WebDaD')
-    meta(property='og:description', content='WebDaD - Wir kümmern uns um Ihren Web-Auftritt.')
-    meta(property='og:url', content='http://webdad.eu')
-    meta(property='og:image', content='http://webdad.eu/images/apple-touch-icon.png')
-    meta(name='twitter:card', content='summary_large_image')
-    meta(name='twitter:site', content='http://webdad.eu')
-    meta(name='twitter:title', content='Children\'s TV Worldwide')
-    meta(name='twitter:description', content='WebDaD - Wir kümmern uns um Ihren Web-Auftritt.')
-    meta(name='twitter:image', content='http://webdad.eu/images/apple-touch-icon.png')
-    link(rel="apple-touch-icon", sizes="180x180", href="/images/apple-touch-icon.png")
-    link(rel="icon", type="image/png", sizes="32x32", href="/images/favicon-32x32.png")
-    link(rel="icon", type="image/png", sizes="16x16", href="/images/favicon-16x16.png")
-    link(rel="manifest", href="/images/manifest.json")
-    link(rel="mask-icon", href="/images/safari-pinned-tab.svg", color="#303f9f")
-    link(rel="shortcut icon", href="/images/favicon.ico")
-    meta(name="msapplication-config", content="/images/browserconfig.xml")
-    meta(name="theme-color", content="#303f9f")
-    link(rel='stylesheet', href='css/main.css')
+    include header.pug
     title WebDaD - Datenschutzerklärung
   body
     .container
@@ -260,3 +225,4 @@ html(lang='de')
       p
         | Quelle:
         a(href='https://www.e-recht24.de') e-recht24.de
+      include footer.pug

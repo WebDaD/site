@@ -7,9 +7,11 @@ RewriteCond %{HTTP_HOST} ^webdad.eu[nc]
 RewriteRule ^(.*)$ http://www.webdad.eu/$1 [r=301,nc]
 
 # 301 Redirect Files
-Redirect 301 haveandshowemotions.html /index.html#haveandshowemotions
-Redirect 301 genderrepresentation.html /index.html#genderrepresentation
-Redirect 301 about_this.html /index.html#about_this
+Redirect 301 ueber_uns.html /index.html#ueber_uns
+Redirect 301 kontakt.html /index.html#kontakt
+Redirect 301 referenzen.html /index.html#referenzen
+Redirect 301 apps.html /index.html#apps
+Redirect 301 games.html /index.html#games
 
 # Custom 404 errors
 ErrorDocument 404 /404.html

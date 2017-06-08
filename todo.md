@@ -1,37 +1,30 @@
-*   htaccess
-  * redirect * -> *.html (eg webdad.eu/impressum -> webdad.eu/impressum.html) (< fixed values only!)
-  * redirect /something -> index.html#something
-*   php config
-* contact -> add dropdown
-* google captcha codes
-*   agbs einbauen (footer link)
-* 404
-* 500
+## DEV
 *   chapters
   * about us
-  * apps
-  * games
-  * referenzen
-  * contact
+  * apps (cards with github links)
+  * games (cards with github links)
+  * referenzen (cards with links)
+
+  *   http://schema.org/docs/gs.html
+
+
+## TESTS
 *   http://yslow.org/
-*   http://schema.org/docs/gs.html
-*   https://github.com/BafS/Gutenberg
-*   http://github.hubspot.com/offline/docs/welcome/ --> if offline, ignore captcha, instead of send on btn, be mailto link
-*   page-speed insights
-*   facebook-card
-*   twitter-card
+*   test page-speed insights
+*   test facebook-card
+*   test twitter-card
 *   check favicon
-*   404 page
-*   check keyword etc
-*   edit sitemap.xml
+* test printout (https://github.com/BafS/Gutenberg)
+* test offline http://github.hubspot.com/offline/docs/welcome/
 *   http://wave.webaim.org/report#/webdad.eu
 *    https://validator.w3.org/nu/?doc=http%3A%2F%2Fwebdad.eu
 *    http://www.evaluera.co.uk/atester
 *   https://search.google.com/structured-data/testing-tool#url=webdad.eu
-* https://www.leapfroggr.com/seo-checklist/
 
-* images have class lazy
-
-* webmaster tools google
-* yandex
-* bing
+* test 404
+* test 503
+* test maintainance
+* test contact
+* validate with metatag webmaster tools google + add sitemap.xml
+* validate with metatag yandex + add sitemap.xml
+* validate with metatag bing + add sitemap.xml
