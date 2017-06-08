@@ -1,7 +1,5 @@
 .row.row-grid
   each ref in referenzen
-    .col-md-6
-      .rcard
-        a(target="_blank" href=ref.link)
-          img.lazy(data-original="/images/refs/"+ref.image alt="Logo "+ref.text)
-          span=ref.text
+    .col-md-6.rcard
+      a.btn.btn-default.btn-block.btn-lg(target="_blank" href=ref.link)
+        img.lazy(data-original="/images/refs/"+ref.image alt="Logo "+ref.text title=ref.text)

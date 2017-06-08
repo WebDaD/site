@@ -30,6 +30,11 @@ $(document).ready(function () {
   $('.nav a').on('click', function () {
     $('.navbar-toggle').click() // bootstrap 3.x by Richard
   })
+  $('#form-selector-back').on('click', function () {
+    $('#form-selector-buttons').show()
+    $('#form-selector-form').hide()
+    $('#contact-type').text('')
+  })
   $('.form-selector').on('click', function () {
     var type = $(this).data('type')
     $('#form-selector-buttons').hide()
@@ -50,6 +55,14 @@ $(document).ready(function () {
       case 'other':
         $('#contact-type').text('Sonstiges')
         $('#form-selector-url').hide().val('-')
+        break
+      case 'service':
+        $('#contact-type').text('Service')
+        $('#form-selector-url').hide().val('-')
+        break
+      case 'error':
+        $('#contact-type').text('Fehlermeldung')
+        $('#form-selector-url').show().val('http://webdad.eu')
         break
     }
   })

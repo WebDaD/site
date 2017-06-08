@@ -1,6 +1,14 @@
 {
   "referenzen": [
+    {"image":"LAP_Header.jpg", "link":"http://l-a-p.eu/", "text":"LAP e.V."},
+    {"image":"fegffb.png", "link":"http://feg-ffb.de/", "text":"FeG Fürstenfeldbruck"},
+    {"image":"tcm.png", "link":"http://terrassendach-manufaktur.de/", "text":"Terrassendach und Carport Manufaktur"},
+    {"image":"christenrat-ffb.png", "link":"http://www.christenrat-ffb.de/", "text":"Christenrat FFB / Emmering"},
+    {"image":"rundum-kosmetik.png", "link":"http://rundum-kosmetik.eu/", "text":"Rundum Kosmetik"},
+    {"image":"badsanierung-leierer.png", "link":"http://leierer-badsanierung.de/", "text":"Badsanierung Leierer"},
+    {"image":"logo_fahrschule_karl_schmidt.gif", "link":"http://fahrschule-karl-schmidt.de/", "text":"Fahrschule Karl Schmidt"},
+    {"image":"beruf_identitaet.png", "link":"http://beruf-identitaet.de/", "text":"Beruf & Identität"},
     {"image":"pg-kaufering.png", "link":"http://pg-kaufering.de/", "text":"Pfarrgemeinde Kaufering"},
-    {"image":"beruf_identitaet.png", "link":"http://beruf-identitaet.de/", "text":"Beruf & Identität"}
+    {"image":"exxpo.png", "link":"http://www.expo-system.de/", "text":"Expo System"}
   ]
 }

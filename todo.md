@@ -1,12 +1,10 @@
 ## DEV
-*   chapters
-  * referenzen -> fill list / images http://webdad.eu/referenzen/
+*   text
   * apps internal links -> liste als json https://github.com/WebDaD/
   * games -> liste als json https://github.com/WebDaD/
-  * service internal links
 * css pcard (apps / games)
-* rcard like button
 * navbar: mark active on scroll
+
 ## TESTS
 *   https://developers.google.com/speed/pagespeed/insights/?hl=de&url=http%3A%2F%2Fnew.webdad.eu%2F
 *   https://developers.facebook.com/tools/debug/
@@ -18,9 +16,6 @@
 *    https://validator.w3.org/nu/?doc=http%3A%2F%2Fnew.webdad.eu
 *    http://www.evaluera.co.uk/atester
 
-* test 404
-* test 503
-* test maintainance
 * test contact
 
 
