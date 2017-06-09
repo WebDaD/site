@@ -2,6 +2,8 @@
 * apps -> liste als json https://github.com/WebDaD/
 * games -> liste als json https://github.com/WebDaD/
 
+* contact -> Mail Fields empty!
+
 
 ## TESTS
 
