@@ -1,0 +1,71 @@
+{
+    "keys": {
+        "google": "xweCfGR9j4A6uroroi2a7p_EVj_3SOx4cUy3IoqVD4I",
+        "bing": "4AC0C1598801FA3C4C45C792D0EB4189",
+        "yandex": "2b137362eff0afc5",
+        "gcaptchasitekey": "6LedphETAAAAABuwiTB92W_c27B5OkRH6fm6dkKf"
+    },
+    "apps": [{
+        "title": "node-red-contrib-pug",
+        "link": "https://flows.nodered.org/node/node-red-contrib-pug",
+        "image": "https://camo.githubusercontent.com/a43de8ca816e78b1c2666f7696f449b2eeddbeca/68747470733a2f2f63646e2e7261776769742e636f6d2f7075676a732f7075672d6c6f676f2f656563343336636565386664396431373236643738333963626539396431663639343639326330632f5356472f7075672d66696e616c2d6c6f676f2d5f2d636f6c6f75722d3132382e737667",
+        "description": "Node-red node for rendering pug template code or template files to html."
+    }],
+    "games": [{
+        "title": "Gardenplay.js",
+        "link": "https://github.com/WebDaD/minesweeper",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Smiley_icon.svg/2000px-Smiley_icon.svg.png",
+        "description": "A WebWorker powered more child friendly Minesweeper game written in JavaScript, HTML and CSS."
+    }],
+    "referenzen": [{
+            "image": "LAP_Header.jpg",
+            "link": "http://l-a-p.eu/",
+            "text": "LAP e.V."
+        },
+        {
+            "image": "fegffb.png",
+            "link": "http://feg-ffb.de/",
+            "text": "FeG Fürstenfeldbruck"
+        },
+        {
+            "image": "tcm.png",
+            "link": "http://terrassendach-manufaktur.de/",
+            "text": "Terrassendach und Carport Manufaktur"
+        },
+        {
+            "image": "christenrat-ffb.png",
+            "link": "http://www.christenrat-ffb.de/",
+            "text": "Christenrat FFB / Emmering"
+        },
+        {
+            "image": "rundum-kosmetik.png",
+            "link": "http://rundum-kosmetik.eu/",
+            "text": "Rundum Kosmetik"
+        },
+        {
+            "image": "badsanierung-leierer.png",
+            "link": "http://leierer-badsanierung.de/",
+            "text": "Badsanierung Leierer"
+        },
+        {
+            "image": "logo_fahrschule_karl_schmidt.gif",
+            "link": "http://fahrschule-karl-schmidt.de/",
+            "text": "Fahrschule Karl Schmidt"
+        },
+        {
+            "image": "beruf_identitaet.png",
+            "link": "http://beruf-identitaet.de/",
+            "text": "Beruf & Identität"
+        },
+        {
+            "image": "pg-kaufering.png",
+            "link": "http://pg-kaufering.de/",
+            "text": "Pfarrgemeinde Kaufering"
+        },
+        {
+            "image": "exxpo.png",
+            "link": "http://www.expo-system.de/",
+            "text": "Expo System"
+        }
+    ]
+}

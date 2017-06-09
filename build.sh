@@ -16,7 +16,7 @@ echo "Refresh Gutenberg-CSS Package"
 npm install gutenberg-css
 
 echo "Creating Index.html"
-pug index.pug -O keys.json -O assets/data/referenzen.json -o public/
+pug index.pug -O assets/data/data.json -o public/
 
 echo "Combine, Minify and Copy CSS"
 touch tmp/main.css
@@ -36,11 +36,13 @@ uglifyjs bower_components/jquery/dist/jquery.min.js bower_components/bootstrap/d
 
 echo "Copy Images"
 cp -a assets/images/. public/images/
+cp assets/images/favicon.ico public/favicon.ico
+
 
 echo "Copy Impressum and Datenschutz and AGBS"
-pug impressum.pug -o public/
-pug datenschutz.pug -o public/
-pug agb.pug -o public/
+pug impressum.pug -O assets/data/data.json -o public/
+pug datenschutz.pug -O assets/data/data.json -o public/
+pug agb.pug -O assets/data/data.json -o public/
 
 echo "Copy Mailer"
 cp -a assets/php/. public/php/

@@ -21,20 +21,15 @@ html(lang='de')
     .container
       h1.target#ueber_uns Über uns
       include assets/chapters/about_us.pug
-      hr.no-print.page-break-after
-      h1.target#kontakt Kontakt
+      h1.page-break-before.target#kontakt Kontakt
       include assets/chapters/contact.pug
-      hr.no-print.page-break-after
-      h1.target#referenzen Referenzen
+      h1.page-break-before.target#referenzen Referenzen
       include assets/chapters/referenzen.pug
-      hr.no-print.page-break-after
-      h1.target#service Service
+      h1.page-break-before.target#service Service
       include assets/chapters/service.pug
-      hr.no-print.page-break-after
-      h1.target#apps Apps
+      h1.page-break-before.target#apps Apps
       include assets/chapters/apps.pug
-      hr.no-print.page-break-after
-      h1.target#games Games
+      h1.page-break-before.target#games Games
       include assets/chapters/games.pug
       include footer.pug
     script(src="js/main.js")

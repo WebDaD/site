@@ -1,7 +1,17 @@
-//- TODO: Linking
-//- TODO: Liste
 p
   | Nebenbei entwickeln wir auch Spiele, die vor allem im Web ablaufen, aber auch lokale Spiele können wir entwerfen.
-  | Gerne können Sie uns auch hier nach Unterstützung für laufende Projekte fragen.
-h3 Unsere Games
+  | <a href="#kontakt">Gerne können Sie uns auch hier nach Unterstützung für laufende Projekte fragen.</a>
+h2 Unsere Games
 p Hier finden Sie eine Auflistung unserer Spiele zur freien Verwendung.
+.row.row-grid
+  each app in games
+    .col-md-6
+      .pcard
+        .row
+          .col-xs-4
+            a(target='_blank', href=app.link)
+              img.lazy(data-original=app.image alt="Logo "+app.title)
+          .col-xs-8
+            a(target='_blank', href=app.link)
+              h3=app.title
+            p=app.description

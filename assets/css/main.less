@@ -97,7 +97,24 @@ body {
   height:100px;
   width:auto;
 }
-
+/* row grid error */
+.row.row-grid [class*="col-"] {
+    margin-top: 15px;
+}
+/* Project Cards */
+.pcard {
+    border: 1px solid #CDCDCD;
+    border-radius:10px;
+    margin:10px;
+    height:150px;
+}
+.pcard a img {
+  height:150px;
+  width:auto;
+}
+.pcard .row [class*="col-"] {
+    margin-top: 0px;
+}
 /* up button */
 #up {
   position: fixed;
@@ -142,7 +159,7 @@ body {
   font-family: 'Helvetica Neue';
   letter-spacing: -.01em;
 }
-p, figcaption, td, li, a, label {
+p, figcaption, td, li, a, label, .alert {
   font-size: 20px;
 	font-size: 1.8rem;
   font-style: normal;
@@ -151,10 +168,7 @@ p, figcaption, td, li, a, label {
   word-wrap: normal;
 }
 
-/* row grid error */
-.row.row-grid [class*="col-"] {
-    margin-top: 15px;
-}
+
 /* Footer */
 footer {
   background-color: #212121;

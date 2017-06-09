@@ -1,6 +1,6 @@
 /* global $ */
 $(document).ready(function () {
-  $('#contact-form').on('click', '#contact-send', function () {
+  $('#form-selector-form').on('click', '#contact-send', function () {
     $.post('../php/mailer.php', {
       type: $('#contact-name').text(),
       name: $('#contact-name').val(),
@@ -9,6 +9,7 @@ $(document).ready(function () {
       message: $('#contact-message').val(),
       captchaResponse: $('#g-recaptcha-response').val()
     }, function (result) {
+      $('#form-selector-form').hide()
       $('#contact-result').html(result).show()
     })
   })
@@ -41,7 +42,7 @@ $(document).ready(function () {
         var id = $(this).attr('id')
         $('.nav li').removeClass('active')
         $('.nav li a[href="#' + id + '"]').parent().addClass('active')
-        // window.location.hash = '#' + id
+        window.history.replaceState(undefined, undefined, '#' + id)
       }
     })
   })

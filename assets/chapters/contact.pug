@@ -11,7 +11,7 @@
     button.btn.btn-lg.btn-primary.btn-block.form-selector(data-type="other") Sonstiges
   .col-md-2.col-sm-6.col-xs-12
     button.btn.btn-lg.btn-primary.btn-block.form-selector(data-type="error") Fehler
-form#form-selector-form.no-print
+#form-selector-form.no-print
   .form-group
     button#form-selector-back.btn.btn-lg.btn-default
       i.fa.fa-arrow-left(aria-hidden="true")
@@ -32,10 +32,10 @@ form#form-selector-form.no-print
     label(for='contact-message') Nachricht
     textarea#contact-message.form-control(placeholder="Nachricht")
   .form-group
-    .g-recaptcha(data-sitekey=gcaptchasitekey)
+    .g-recaptcha(data-sitekey=keys.gcaptchasitekey)
   .form-group
     button#contact-send.btn.btn-primary.btn-lg.btn-block Abschicken
-  #contact-result.form-group
+#contact-result.no-print
 hr.no-print
 p
   a(href="mailto:info@webdad.eu" itemprop="email") Oder per E-Mail
