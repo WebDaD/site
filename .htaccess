@@ -19,6 +19,7 @@ ErrorDocument 404 /404.html
 # Custom 500 errors
 ErrorDocument 500 /500.html
 
+
 <ifModule mod_gzip.c>
   mod_gzip_on Yes
   mod_gzip_dechunk Yes
