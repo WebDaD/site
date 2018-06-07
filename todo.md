@@ -1,18 +1,12 @@
 ## DEV
 * apps -> liste als json https://github.com/WebDaD/
-* games -> liste als json https://github.com/WebDaD/
 
-* apps / games:
+* apps:
 	* border colors and Symbols for state:
 		* beta (yellow)
 		* production (green)
 		* deprecated (gray)
 	* legende
-
-* BUG contact -> Mail Fields empty!
-
-* refs: add ctvww
-
 * try: background complete blue, white fonts
 
 * TEXT -> Du Form, wo sinnvoll

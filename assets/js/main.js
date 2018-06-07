@@ -2,7 +2,7 @@
 $(document).ready(function () {
   $('#form-selector-form').on('click', '#contact-send', function () {
     $.post('../php/mailer.php', {
-      type: $('#contact-name').text(),
+      type: $('#contact-type').text(),
       name: $('#contact-name').val(),
       url: $('#contact-url').val(),
       mail: $('#contact-mail').val(),

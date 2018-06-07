@@ -10,12 +10,18 @@
         "link": "https://flows.nodered.org/node/node-red-contrib-pug",
         "image": "https://camo.githubusercontent.com/a43de8ca816e78b1c2666f7696f449b2eeddbeca/68747470733a2f2f63646e2e7261776769742e636f6d2f7075676a732f7075672d6c6f676f2f656563343336636565386664396431373236643738333963626539396431663639343639326330632f5356472f7075672d66696e616c2d6c6f676f2d5f2d636f6c6f75722d3132382e737667",
         "description": "Node-red node for rendering pug template code or template files to html."
-    }],
-    "games": [{
-        "title": "Gardenplay.js",
-        "link": "https://github.com/WebDaD/minesweeper",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Smiley_icon.svg/2000px-Smiley_icon.svg.png",
-        "description": "A WebWorker powered more child friendly Minesweeper game written in JavaScript, HTML and CSS."
+    },
+    {
+        "title": "awas",
+        "link": "https://github.com/WebDaD/awas",
+        "image": "https://raw.githubusercontent.com/WebDaD/awas/master/public/img/logo-512x512.png",
+        "description": "Simple Recording Service for streaming web-audio."
+    },
+    {
+        "title": "M3UExporter",
+        "link": "https://github.com/WebDaD/M3UExporter",
+        "image": "http://via.placeholder.com/150x150/3F51B5/FF9800?text=M3UExporter.png",
+        "description": "Exports m3u-File MP3's into a folder."
     }],
     "referenzen": [{
             "image": "LAP_Header.jpg",
@@ -26,6 +32,11 @@
             "image": "fegffb.png",
             "link": "http://feg-ffb.de/",
             "text": "FeG Fürstenfeldbruck"
+        },
+        {
+            "image": "ctvww.png",
+            "link": "http://childrens-tv-worldwide.com/",
+            "text": "Children's TV Worldwide"
         },
         {
             "image": "tcm.png",

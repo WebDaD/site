@@ -6,6 +6,7 @@ mkdir -p public/fonts
 mkdir -p public/css
 mkdir -p public/js
 mkdir -p public/php
+mkdir -p public/lite
 mkdir -p tmp
 chmod 777 tmp/
 
@@ -17,6 +18,10 @@ npm install gutenberg-css
 
 echo "Creating Index.html"
 pug index.pug -O assets/data/data.json -o public/
+
+echo "Creating LITE/Index.html"
+pug lite.pug -O assets/data/data.json -o public/lite/
+mv public/lite/lite.html public/lite/index.html 
 
 echo "Combine, Minify and Copy CSS"
 touch tmp/main.css
@@ -32,7 +37,7 @@ echo "Copy Gutenberg-Css for printing"
 cp node_modules/gutenberg-css/dist/gutenberg.min.css public/css/gutenberg.min.css
 
 echo "Combine, Minify and Copy JS"
-uglifyjs bower_components/jquery/dist/jquery.min.js bower_components/bootstrap/dist/js/bootstrap.min.js bower_components/jquery.lazyload/jquery.lazyload.js assets/js/analytics.js bower_components/offline/offline.min.js assets/js/main.js --mangle --compress --output=public/js/main.js
+uglifyjs bower_components/jquery/dist/jquery.min.js bower_components/bootstrap/dist/js/bootstrap.min.js bower_components/jquery.lazyload/jquery.lazyload.js  bower_components/offline/offline.min.js assets/js/main.js --mangle --compress --output=public/js/main.js
 
 echo "Copy Images"
 cp -a assets/images/. public/images/

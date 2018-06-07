@@ -15,11 +15,11 @@ if ($response . success == false) {
   <div class="alert alert-danger" role="alert">Konnte Nachricht nicht verschicken.</div>
   <?php
 } else {
-  $name = $_POST['name'];
-  $url = $_POST['url'];
-  $type = $_POST['type'];
-  $message = $_POST['message'];
-  $email = $POST['mail'];
+  $name = $_POST['contact-name'];
+  $url = $_POST['contact-url'];
+  $type = $_POST['contact-type'];
+  $message = $_POST['contact-message'];
+  $email = $POST['contact-mail'];
   $empfaenger = 'info@webdad.eu';
   $betreff = 'WebDaD.eu - Contact - '.$type;
   $nachricht = 'From: ' . $name . '<' . $email . '>' . "\r\nTyp: ".$type."\r\nURL: ".$url."\r\nMessage:\r\n" . $message ;
