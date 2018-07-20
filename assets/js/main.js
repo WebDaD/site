@@ -78,7 +78,7 @@ $(document).ready(function () {
         break
       case 'error':
         $('#contact-type').text('Fehlermeldung')
-        $('#form-selector-url').show().val('http://webdad.eu')
+        $('#form-selector-url').show().val('https://webdad.eu')
         break
     }
   })

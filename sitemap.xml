@@ -1,32 +1,32 @@
 <?xml version=”1.0″ encoding=”UTF-8″?>
-<urlset xmlns=”http://www.sitemaps.org/schemas/sitemap/0.9″>
+<urlset xmlns=”https://www.sitemaps.org/schemas/sitemap/0.9″>
   <url>
   <url>
-    <loc>http://webdad.eu/ueber_uns.html</loc>
+    <loc>https://webdad.eu/ueber_uns.html</loc>
     <lastmod>2017-05-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://webdad.eu/kontakt.html</loc>
+    <loc>https://webdad.eu/kontakt.html</loc>
     <lastmod>2017-05-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://webdad.eu/referenzen.html</loc>
+    <loc>https://webdad.eu/referenzen.html</loc>
     <lastmod>2017-05-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://webdad.eu/apps.html</loc>
+    <loc>https://webdad.eu/apps.html</loc>
     <lastmod>2017-05-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://webdad.eu/games.html</loc>
+    <loc>https://webdad.eu/games.html</loc>
     <lastmod>2017-05-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

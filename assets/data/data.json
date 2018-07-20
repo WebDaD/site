@@ -20,62 +20,62 @@
     {
         "title": "M3UExporter",
         "link": "https://github.com/WebDaD/M3UExporter",
-        "image": "http://via.placeholder.com/150x150/3F51B5/FF9800?text=M3UExporter.png",
+        "image": "https://via.placeholder.com/150x150/3F51B5/FF9800?text=M3UExporter.png",
         "description": "Exports m3u-File MP3's into a folder."
     }],
     "referenzen": [{
             "image": "LAP_Header.jpg",
-            "link": "http://l-a-p.eu/",
+            "link": "https://l-a-p.eu/",
             "text": "LAP e.V."
         },
         {
             "image": "fegffb.png",
-            "link": "http://feg-ffb.de/",
+            "link": "https://feg-ffb.de/",
             "text": "FeG Fürstenfeldbruck"
         },
         {
             "image": "ctvww.png",
-            "link": "http://childrens-tv-worldwide.com/",
+            "link": "https://childrens-tv-worldwide.com/",
             "text": "Children's TV Worldwide"
         },
         {
             "image": "tcm.png",
-            "link": "http://terrassendach-manufaktur.de/",
+            "link": "https://terrassendach-manufaktur.de/",
             "text": "Terrassendach und Carport Manufaktur"
         },
         {
             "image": "christenrat-ffb.png",
-            "link": "http://www.christenrat-ffb.de/",
+            "link": "https://www.christenrat-ffb.de/",
             "text": "Christenrat FFB / Emmering"
         },
         {
             "image": "rundum-kosmetik.png",
-            "link": "http://rundum-kosmetik.eu/",
+            "link": "https://rundum-kosmetik.eu/",
             "text": "Rundum Kosmetik"
         },
         {
             "image": "badsanierung-leierer.png",
-            "link": "http://leierer-badsanierung.de/",
+            "link": "https://leierer-badsanierung.de/",
             "text": "Badsanierung Leierer"
         },
         {
             "image": "logo_fahrschule_karl_schmidt.gif",
-            "link": "http://fahrschule-karl-schmidt.de/",
+            "link": "https://fahrschule-karl-schmidt.de/",
             "text": "Fahrschule Karl Schmidt"
         },
         {
             "image": "beruf_identitaet.png",
-            "link": "http://beruf-identitaet.de/",
+            "link": "https://beruf-identitaet.de/",
             "text": "Beruf & Identität"
         },
         {
             "image": "pg-kaufering.png",
-            "link": "http://pg-kaufering.de/",
+            "link": "https://pg-kaufering.de/",
             "text": "Pfarrgemeinde Kaufering"
         },
         {
             "image": "exxpo.png",
-            "link": "http://www.expo-system.de/",
+            "link": "https://www.expo-system.de/",
             "text": "Expo System"
         }
     ]

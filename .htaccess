@@ -4,7 +4,7 @@ AddType text/cache-manifest .appcache
 Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^webdad.eu[nc]
-RewriteRule ^(.*)$ http://www.webdad.eu/$1 [r=301,nc]
+RewriteRule ^(.*)$ https://www.webdad.eu/$1 [r=301,nc]
 
 # 301 Redirect Files
 Redirect 301 /ueber_uns.html /index.html#ueber_uns

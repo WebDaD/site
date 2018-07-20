@@ -14,7 +14,7 @@
     "Dominik Sigmund"
   ],
   "license": "The Unlicense",
-  "homepage": "http://www.webdad.eu",
+  "homepage": "https://www.webdad.eu",
   "private": true,
   "dependencies": {
     "bootstrap": "^3.3.7",
